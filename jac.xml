@@ -7,7 +7,7 @@
   <bindings>
     <select itemPath="rss.channel.item" produces="XML">
       <urls>
-        <url>http://jira.atlassian.com/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?reset=true</url>
+        <url>{domain}/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?reset=true</url>
       </urls>
       <paging model="page">
         <start default="0" id="pager/start"/>
