@@ -15,6 +15,7 @@
         <total default="20"/>
       </paging>
       <inputs>
+        <key id="domain" type="xs:string" paramType="path" required="true" />
         <key id="sorter/field" default="issuekey" type="xs:string" paramType="query" />
         <key id="sorter/order" default="DESC" type="xs:string" paramType="query" />
         <key id="pid" type="xs:string" paramType="query" required="false"/>
